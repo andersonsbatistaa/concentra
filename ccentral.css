@@ -1,0 +1,64 @@
+body{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    background-color: whitesmoke;
+    background-size: cover;
+}
+
+#div0{
+    background-image: url(banner-inss.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+}
+.d-flex{
+    color: whitesmoke;
+    font-size: 1rem;
+}
+.navcc{
+    background-color:whitesmoke;
+    border-bottom: #043C64 solid 0.25px;
+    text-align: right;
+    height: inherit;
+}
+.card,{
+    padding:0;
+    margin: 0;   
+}
+.tm1{
+    color: white;
+    background-color: #043C64; /*Teal Blue*/
+    padding:0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.buffercc{
+    height: 12.55em;
+}
+.bufferccomp{
+    height: 3.25em;
+}
+/*
+Venice Blue
+#044C82
+#04487A
+
+Regal Blue
+#043C6C
+
+Teal Blue
+#043C64
+
+Willow Grove
+#63715D
+
+Mosque
+#046C74
+
+Elephant
+#143C54
+*/
