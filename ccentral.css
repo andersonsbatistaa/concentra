@@ -1,18 +1,18 @@
-body{
+body,html{
     width: 100%;
+    height: 100%;
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
     background-color: whitesmoke;
     background-size: cover;
 }
-
 #div0{
     background-image: url(banner-inss.png);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size:cover;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size: auto;    
 }
 .d-flex{
     color: whitesmoke;
@@ -35,7 +35,6 @@ body{
     margin: 0px;
     text-align: center;
 }
-
 .buffercc{
     height: 12.55em;
 }
