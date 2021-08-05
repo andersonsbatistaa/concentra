@@ -11,13 +11,13 @@ body{
     width: 100%;
 }
 #div1{
-    background-image: url(./img/bgcc.png);
+    background-image: url(bgcc.png);
     height: 100%;
     width: 100%;
     background-size:cover;
 }
 #div0{
-    background-image: url(./img/banner-inss.png);
+    background-image: url(banner-inss.png);
     -webkit-background-size: auto;
     -moz-background-size: auto;
     -o-background-size: auto;
