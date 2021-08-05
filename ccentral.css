@@ -5,26 +5,42 @@ body,html{
     margin-right: 0;
     margin-top: 0;
     background-color: whitesmoke;
-    background-size: cover;
+    background-size: cover;    
 }
-#div0{
-    background-image: url(banner-inss.png);
+h3{    
+    color: #043C64;
+    padding-top: 6px;
+}
+.cabecalho{
+    background-image: url(./img/banner-inss.png);
     -webkit-background-size: auto;
     -moz-background-size: auto;
     -o-background-size: auto;
     background-size: auto;    
 }
 .d-flex{
-    color: whitesmoke;
+    color: white;
     font-size: 1rem;
+    background-color: whitesmoke;
 }
-.navcc{
+.navcc{    
     background-color:whitesmoke;
-    border-bottom: #043C64 solid 0.25px;
-    text-align: right;
-    height: inherit;
+    border-bottom: whitesmoke solid 0.25px;
+    justify-content: space-between;
+    max-height: max-content;
+    padding: 0%;
 }
-.card,{
+.navser{
+    color: #043C64;
+    background-color:whitesmoke;
+    padding: 0%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: Helvetica, sans-serif;
+}
+.card{
     padding:0;
     margin: 0;   
 }
@@ -36,10 +52,65 @@ body,html{
     text-align: center;
 }
 .buffercc{
-    height: 12.55em;
+    height: 2rem;
+    max-width: fit-content;;
 }
 .bufferccomp{
     height: 3.25em;
+}
+table{
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: fit-content;
+    justify-content: left;
+}
+th, td, tr{
+    margin: 0%;
+    padding: 0%;
+}
+<style id='ez-toc-inline-css'> 
+    div#ez-toc-container p.ez-toc-title {
+        font-size: 120%;
+    }
+    div#ez-toc-container p.ez-toc-title {
+        font-weight: 500;
+    }
+    div#ez-toc-container ul li {
+        font-size: 95%;
+        justify-content: left;
+        text-align: left;
+    }
+</style>
+
+/* CARDS */
+.zonas{
+    display: inline-flex;
+    justify-content: center;
+    width: 250px;
+    cursor:pointer;
+    border-radius: 40px;
+	background: white;	
+    transition: all 0.3s linear;
+    border: none;
+    align-items: center;
+}
+.zonas:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    transition: all 0.1s;
+    transform: scale(1.05);
+    border-radius: 40px;
+}
+.card-img{
+    height: 250px;
+    width: 250px;
+    background: white;
+    border-radius: 40px;
 }
 /*
 Venice Blue

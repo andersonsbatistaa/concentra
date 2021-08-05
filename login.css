@@ -1,0 +1,226 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    background-size: cover;    
+}
+body{
+    background-image: url(./img/bgcc.png);
+    height: 100%;
+    width: 100%;
+}
+#div0{
+    background-image: url(./img/banner-inss.png);
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size:auto;
+    width: auto;
+    height: fit-content;
+    margin-top:auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+p{
+    margin: 0%;
+    padding: 0%;
+}
+.d-flex{
+    color: whitesmoke;
+    font-size: 1rem;      
+}
+.navcc{
+    background-color:whitesmoke;
+    border: none;
+    text-align: right;
+    height: inherit;
+    font-size: 1rem;
+    background-color: transparent;
+}
+.tm0{
+    color: whitesmoke;
+    background-color: whitesmoke; /*Teal Blue*/
+    padding: 0px;
+    border: none;
+    margin:0px;
+    background-color: transparent;
+}
+.tm1{
+    color: white;
+    background-color: #043C64; /*Teal Blue*/
+    padding:0px;
+    margin: 0px;
+    text-align: center;
+    justify-content: baseline;
+    font-size:  1rem;
+}
+.bufferlogin{
+    height: 102px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+.form--hidden {
+    display: none;
+}
+.form__input {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #dddddd;
+    outline: none;
+    background: #eeeeee;
+    transition: background 0.2s, border-color 0.2s;
+}
+.form__input:focus {
+    border-color: black;
+    background: #ffffff;
+}
+.pa1 {
+    padding: 0.5rem;
+    border: #043C64 1px solid;
+    margin: auto;
+    height: fit-content;
+    width: 400px;
+    font-size: 1rem;
+}
+legend{
+    margin: auto;
+    padding: auto;
+}
+label{
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: auto;
+    padding: auto;
+}
+.bold {
+    font-weight: bold;
+    font-size: 1rem;
+}
+.input-reset {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    background-color: white;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.input-reset::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+.input-reset:hover {
+    background-color: #043C64;
+    color: white;
+}
+.input-reset:focus {
+    background-color: white;
+    color: black;
+}
+.link {
+    text-decoration: none;
+    transition: color .15s ease-in;
+    font-size: 1rem;
+}
+.link:link, .link:visited {
+    transition: color .15s ease-in;
+}
+.link:hover {
+    transition: color .15s ease-in;
+}
+.link:active {
+    transition: color .15s ease-in;
+}
+.link:focus {
+    transition: color .15s ease-in;
+    outline: 1px dotted currentColor;
+}
+.black-80 {
+    color: rgba(0, 0, 0, .8);
+}
+.flex-grow-1{
+    font-size: 1rem;
+    justify-content: space-around;
+    align-self:auto;
+    padding: 0px;
+    margin-left: 1rem;
+    margin-top: 1rem;    
+}
+.flex-grow-0,.lembrar,.checkbox{
+    width: auto;
+    height: auto;
+    margin-left: 0.75rem;
+    align-self:center;  
+    transform: scale(1.5);
+    color: black;
+}
+
+.dim {
+    color: #000;
+    opacity: 1;
+    transition: opacity .15s ease-in;
+}
+.dim:hover, .dim:focus {
+    opacity: .5;
+    transition: opacity .15s ease-in;
+}
+.dim:active {
+    opacity: .8;
+    transition: opacity .15s ease-out;
+}
+.grow {
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform .25s ease-out;
+}
+.grow:hover, .grow:focus {
+    transform: scale(1.05);
+}
+.grow:active {
+    transform: scale(.9);
+}
+.pointer:hover {
+    cursor: pointer;
+}
+
+/*
+Venice Blue
+#044C82
+#04487A
+
+Regal Blue
+#043C6C
+
+Teal Blue
+#043C64
+
+Willow Grove
+#63715D
+
+Mosque
+#046C74
+
+Elephant
+#143C54
+
+#ce96b3 rosa
+#f4d36b amarela clara
+#7aba6b verde
+#d6ebd2 azul baby
+#d6ebd2 amarela escura
+
+
+*/

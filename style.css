@@ -1,23 +1,51 @@
-body,html{
-    width: 100%;
+html,body{
     height: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
     background-color: whitesmoke;
-    background-size: cover;
+    background-size: cover;    
+}
+body{    
+    height: max-content;
+    width: 100%;
+}
+#div1{
+    background-image: url(./img/bgcc.png);
+    height: 100%;
+    width: 100%;
+    background-size:cover;
 }
 #div0{
-    background-image: url(banner-inss.png);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size:cover;
-    
+    background-image: url(./img/banner-inss.png);
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto;
+    background-size:auto;
+    width: auto;
+    height: fit-content;
+    margin-top:auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+img {
+    display: block;
+    margin: 0%;
+    max-width: 100%;
+    max-height: 100%;
 }
 .d-flex{
     color: whitesmoke;
-      
+    font-size: 1rem; 
+    margin: 0%;    
+    padding: 0%;
 }
 nav{
     background-color:whitesmoke;
@@ -28,15 +56,34 @@ nav{
     text-align: right;
     border: none;
     height: inherit;
+    max-height: 30px;
+    background-color:whitesmoke;
+}
+.navbar-brand{
+    max-height: 30px;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 500;
+    align-content: center;
+    padding: 0%;
+    margin: 0%;
+    border-radius: 100px;
+    border-color: transparent;
+}
+.navbar-brand:hover{
+    background-color:silver;
+    border-color: silver;
+    transition: all 0.5s;
 }
 .btn{
     font-weight:bold;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: whitesmoke;
+    background-color:transparent;
     border-radius: 400px;
-    border-color: whitesmoke;
-    padding: 0;     
+    border-color: transparent;
+    padding: 0%;
+    margin: 0%;
 }
 /* APOS ALTERAR A MANDALA
 .btn{
@@ -53,18 +100,12 @@ nav{
     border-color: silver;
     display: block;
     transition: all 2s;
-    transform: ;
 }
 .hide{
     display: none;
-    text-align: justify;
-    text-justify: auto;
 }
 .mostrar:hover + .hide {
     display: contents;    
-}
-.buffer{
-    height: 2em;
 }
 
 img:hover{
@@ -82,10 +123,17 @@ h1{
     font-weight: bold;
     text-align: center;
 }
-table{
-    color: whitesmoke;
+.tm1{
+    color: white;
     background-color: #043C64; /*Teal Blue*/
+    border-top: solid 1px;
+    padding:0px;
+    margin: 0px;
+    text-align: center;
+    height:max-content;
+    font-size:  1rem;
 }
-.card-link:hover{
-    cursor: pointer;    
+label, a{
+    padding-right: 10px;
+    font-weight: 500;
 }
