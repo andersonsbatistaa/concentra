@@ -13,7 +13,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="icon" type="image/png" href="./img/favicon.png">
+    <link rel="icon" type="image/png" href="favicon.png">
     <title>CONCENTRA</title>
 </head>
 <body>      
@@ -36,11 +36,11 @@
     <nav class="nav1 text-right">        
         <a href="login.php">
             <button class="navbar-brand">
-                <img src="./img/login.png" width="25" height="25" class="d-inline-block align-top" alt="">
+                <img src="login.png" width="25" height="25" class="d-inline-block align-top" alt="">
                 Área restrita
             </button></a>
         <button class="navbar-brand" onclick="window.open('https://sei.inss.gov.br/sei/controlador.php?acao=procedimento_trabalhar&id_procedimento=2817169&id_documento=3502684')">
-            <img src="./img/saibamais.png" width="25" height="25" class="d-inline-block align-top" alt="">
+            <img src="saibamais.png" width="25" height="25" class="d-inline-block align-top" alt="">
             Saiba mais
         </button>
     </nav>
@@ -84,7 +84,7 @@
     <!-- JavaScripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type="text/javascript" src="jquery.maphilight.min.js"></script>
-    <script type="text/javascript" src="./js/buscador.js"></script>
+    <script type="text/javascript" src="buscador.js"></script>
     <!-- Latest Bootstrap JavaScript plugin -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
